@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApplication1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="F1State" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.Windows.Forms.Form" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="behaviorname" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tabControl1</Value>
+    </Setting>
+    <Setting Name="tab1name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tabControl1</Value>
+    </Setting>
+    <Setting Name="researcher1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Researcher name here</Value>
+    </Setting>
+    <Setting Name="state_name1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="event_name1" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>
