@@ -105,5 +105,101 @@ namespace WindowsFormsApplication1.Properties {
                 this["event_name1"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("State Name")]
+        public string state_name2 {
+            get {
+                return ((string)(this["state_name2"]));
+            }
+            set {
+                this["state_name2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Event Name")]
+        public string event_name2 {
+            get {
+                return ((string)(this["event_name2"]));
+            }
+            set {
+                this["event_name2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string tab2name {
+            get {
+                return ((string)(this["tab2name"]));
+            }
+            set {
+                this["tab2name"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string behaviorname2 {
+            get {
+                return ((string)(this["behaviorname2"]));
+            }
+            set {
+                this["behaviorname2"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string state_name3 {
+            get {
+                return ((string)(this["state_name3"]));
+            }
+            set {
+                this["state_name3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string event_name3 {
+            get {
+                return ((string)(this["event_name3"]));
+            }
+            set {
+                this["event_name3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string tab3name {
+            get {
+                return ((string)(this["tab3name"]));
+            }
+            set {
+                this["tab3name"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string behaviorname3 {
+            get {
+                return ((string)(this["behaviorname3"]));
+            }
+            set {
+                this["behaviorname3"] = value;
+            }
+        }
     }
 }

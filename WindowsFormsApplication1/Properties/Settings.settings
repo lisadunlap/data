@@ -23,5 +23,29 @@
     <Setting Name="event_name1" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="state_name2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">State Name</Value>
+    </Setting>
+    <Setting Name="event_name2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Event Name</Value>
+    </Setting>
+    <Setting Name="tab2name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="behaviorname2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="state_name3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="event_name3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="tab3name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="behaviorname3" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>
