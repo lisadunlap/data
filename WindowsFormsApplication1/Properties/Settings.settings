@@ -9,7 +9,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="behaviorname" Type="System.String" Scope="User">
-      <Value Profile="(Default)">tabControl1</Value>
+      <Value Profile="(Default)">Behavior Name</Value>
     </Setting>
     <Setting Name="tab1name" Type="System.String" Scope="User">
       <Value Profile="(Default)">tabControl1</Value>
@@ -18,10 +18,10 @@
       <Value Profile="(Default)">Researcher name here</Value>
     </Setting>
     <Setting Name="state_name1" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">State Name</Value>
     </Setting>
     <Setting Name="event_name1" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Event Name</Value>
     </Setting>
     <Setting Name="state_name2" Type="System.String" Scope="User">
       <Value Profile="(Default)">State Name</Value>
@@ -30,22 +30,46 @@
       <Value Profile="(Default)">Event Name</Value>
     </Setting>
     <Setting Name="tab2name" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Behavior 2</Value>
     </Setting>
     <Setting Name="behaviorname2" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Behavior Name</Value>
     </Setting>
     <Setting Name="state_name3" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">State Name</Value>
     </Setting>
     <Setting Name="event_name3" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Event Name</Value>
     </Setting>
     <Setting Name="tab3name" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Behavior 3</Value>
     </Setting>
     <Setting Name="behaviorname3" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Behavior Name</Value>
+    </Setting>
+    <Setting Name="state_name4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">State Name</Value>
+    </Setting>
+    <Setting Name="event_name4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Event Name</Value>
+    </Setting>
+    <Setting Name="tab4name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Behavior 4</Value>
+    </Setting>
+    <Setting Name="behaviorname4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Behavior Name</Value>
+    </Setting>
+    <Setting Name="state_name5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">State Name</Value>
+    </Setting>
+    <Setting Name="event_name5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Event Name</Value>
+    </Setting>
+    <Setting Name="tab5name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Behavior 5</Value>
+    </Setting>
+    <Setting Name="behaviorname5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Behavior Name</Value>
     </Setting>
   </Settings>
 </SettingsFile>

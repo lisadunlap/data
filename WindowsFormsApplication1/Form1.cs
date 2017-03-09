@@ -19,20 +19,32 @@ namespace WindowsFormsApplication1
         Stopwatch timer1 = new Stopwatch();
         Stopwatch timer2 = new Stopwatch();
         Stopwatch timer3 = new Stopwatch();
+        Stopwatch timer4 = new Stopwatch();
+        Stopwatch timer5 = new Stopwatch();
+        Stopwatch timer6 = new Stopwatch();
         object misValue = System.Reflection.Missing.Value;
         String statename;
         String eventname;
         ArrayList events;
         ArrayList events2;
         ArrayList events3;
+        ArrayList events4;
+        ArrayList events5;
+        ArrayList events6;
         String researcherName;
         String researcherAnimal;
         String stateStart;
         String stateStart2;
         String stateStart3;
+        String stateStart4;
+        String stateStart5;
+        String stateStart6;
         int num;
         int num2;
         int num3;
+        int num4;
+        int num5;
+        int num6;
         String behavior;
         public Form1()
         {
@@ -40,6 +52,9 @@ namespace WindowsFormsApplication1
             events = new ArrayList();
             events2 = new ArrayList();
             events3 = new ArrayList();
+            events4 = new ArrayList();
+            events5 = new ArrayList();
+            events6 = new ArrayList();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -69,7 +84,7 @@ namespace WindowsFormsApplication1
             {
                 System.IO.StreamWriter file = new System.IO.StreamWriter("C:\\Mentorship\\Data.txt", true);
                 String write = "Researcher: " + things[0] + "       Animal: " + things[1];
-                String write2 = "--------------------------------------------------";
+                \String write2 = "--------------------------------------------------";
                 file.WriteLine(write);
                 file.WriteLine(write2);
 
@@ -360,6 +375,153 @@ namespace WindowsFormsApplication1
             eventLabel3.Text = eventname;
             Properties.Settings.Default.event_name3 = eventname;
         }
+
+        private void behavior4_Click(object sender, EventArgs e)
+        {
+            behavior = Microsoft.VisualBasic.Interaction.InputBox("Enter New Behavior Name", "New Behavior", "Default Text");
+            tabPage4.Text = behavior;
+            behaviorlabel4.Name = behavior;
+            Properties.Settings.Default.tab4name = behavior;
+            Properties.Settings.Default.behaviorname4 = behavior;
+        }
+
+        private void state4_Click(object sender, EventArgs e)
+        {
+            timer4.Start();
+            stateStart4 = DateTime.Now.ToString();
+        }
+
+        private void state4stop_Click(object sender, EventArgs e)
+        {
+            long time = timer4.ElapsedMilliseconds;
+            string lines = researcherName + "," + researcherAnimal + "," + behaviorlabel4.Text + ",State," + stateLabel4.Text + "," + stateStart4 + "," + time.ToString() + "," + eventLabel4.Text + "," + num4.ToString();
+            foreach (string eventTime in events4)
+            {
+                lines += "," + eventTime;
+            }
+            events4.Clear();
+            System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\Mentorship\\Datacsv.csv", true);
+            file.WriteLine(lines);
+
+            file.Close();
+            timer4.Stop();
+            num4 = 0;
+        }
+
+        private void event4_Click(object sender, EventArgs e)
+        {
+            if (behaviorlabel4.Text != null && stateLabel4.Text != null && eventLabel4.Text != null)
+            {
+                //Compose a string that consists of three lines.
+                string time = DateTime.Now.ToString();
+                if (timer4.IsRunning != false)
+                {
+                    num4++;
+                    events4.Add(time);
+                }
+                else
+                {
+                    string line = researcherName + "," + researcherAnimal + "," + behaviorlabel4.Text + ",Event, , , ," + eventLabel4.Text + ", ," + time;
+                    System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\Mentorship\\Datacsv.csv", true);
+                    file.WriteLine(line);
+
+                    file.Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please make sure all the fields have been completed", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            }
+        }
+
+        private void stateName4_Click(object sender, EventArgs e)
+        {
+            statename = Microsoft.VisualBasic.Interaction.InputBox("Enter a state name", "State Name", "Default Text");
+            stateLabel4.Text = statename;
+            Properties.Settings.Default.state_name4 = statename;
+        }
+
+        private void EventName4_Click(object sender, EventArgs e)
+        {
+            eventname = Microsoft.VisualBasic.Interaction.InputBox("Enter an event name", "Event Name", "Default Text");
+            eventLabel4.Text = eventname;
+            Properties.Settings.Default.event_name4 = eventname;
+        }
+
+
+        private void behavior5_Click(object sender, EventArgs e)
+        {
+            behavior = Microsoft.VisualBasic.Interaction.InputBox("Enter New Behavior Name", "New Behavior", "Default Text");
+            tabPage5.Text = behavior;
+            behaviorlabel5.Name = behavior;
+            Properties.Settings.Default.tab5name = behavior;
+            Properties.Settings.Default.behaviorname5 = behavior;
+        }
+
+        private void state5_Click(object sender, EventArgs e)
+        {
+            timer5.Start();
+            stateStart5 = DateTime.Now.ToString();
+        }
+
+        private void state5stop_Click(object sender, EventArgs e)
+        {
+            long time = timer5.ElapsedMilliseconds;
+            string lines = researcherName + "," + researcherAnimal + "," + behaviorlabel5.Text + ",State," + stateLabel5.Text + "," + stateStart5 + "," + time.ToString() + "," + eventLabel5.Text + "," + num5.ToString();
+            foreach (string eventTime in events5)
+            {
+                lines += "," + eventTime;
+            }
+            events5.Clear();
+            System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\Mentorship\\Datacsv.csv", true);
+            file.WriteLine(lines);
+
+            file.Close();
+            timer5.Stop();
+            num5 = 0;
+        }
+
+        private void event5_Click(object sender, EventArgs e)
+        {
+            if (behaviorlabel5.Text != null && stateLabel5.Text != null && eventLabel5.Text != null)
+            {
+                //Compose a string that consists of three lines.
+                string time = DateTime.Now.ToString();
+                if (timer5.IsRunning != false)
+                {
+                    num5++;
+                    events5.Add(time);
+                }
+                else
+                {
+                    string line = researcherName + "," + researcherAnimal + "," + behaviorlabel5.Text + ",Event, , , ," + eventLabel5.Text + ", ," + time;
+                    System.IO.StreamWriter file = new System.IO.StreamWriter("c:\\Mentorship\\Datacsv.csv", true);
+                    file.WriteLine(line);
+
+                    file.Close();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please make sure all the fields have been completed", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+            }
+        }
+
+        private void stateName5_Click(object sender, EventArgs e)
+        {
+            statename = Microsoft.VisualBasic.Interaction.InputBox("Enter a state name", "State Name", "Default Text");
+            stateLabel5.Text = statename;
+            Properties.Settings.Default.state_name5 = statename;
+        }
+
+        private void EventName5_Click(object sender, EventArgs e)
+        {
+            eventname = Microsoft.VisualBasic.Interaction.InputBox("Enter an event name", "Event Name", "Default Text");
+            eventLabel5.Text = eventname;
+            Properties.Settings.Default.event_name5 = eventname;
+        }
+
+ 
     }
    
     
