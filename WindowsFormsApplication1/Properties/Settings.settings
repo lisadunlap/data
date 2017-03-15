@@ -12,7 +12,7 @@
       <Value Profile="(Default)">Behavior Name</Value>
     </Setting>
     <Setting Name="tab1name" Type="System.String" Scope="User">
-      <Value Profile="(Default)">tabControl1</Value>
+      <Value Profile="(Default)">Behavior 1</Value>
     </Setting>
     <Setting Name="researcher1" Type="System.String" Scope="User">
       <Value Profile="(Default)">Researcher name here</Value>

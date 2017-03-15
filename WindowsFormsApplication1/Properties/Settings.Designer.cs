@@ -60,7 +60,7 @@ namespace WindowsFormsApplication1.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("tabControl1")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Behavior 1")]
         public string tab1name {
             get {
                 return ((string)(this["tab1name"]));
